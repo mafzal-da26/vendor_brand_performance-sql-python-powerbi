@@ -77,7 +77,9 @@ The Power BI dashboard provides:
 - Unsold Capital  
 - Vendor Contribution %  
 - Top & Low Performing Vendors  
-- Sales vs Margin Analysis  
+- Sales vs Margin Analysis
+
+![Vendor Brand Performance Dashboard](images/vendor-brand-performance-dashboard.png)
 
 ---
 
@@ -142,10 +144,24 @@ Vendor Sales / Total Sales
 vendor_brand_performance/
 │
 ├── dashboard/
+│   └── vendor_brand_performance_dashboard.pbix
+│
 ├── data/
+│   ├── database_dump.sql
+│   ├── raw_data.csv
+│   └── processed_data.csv
+│
 ├── images/
+│   └── vendor-brand-performance-dashboard.png
+│
 ├── notebooks/
+│   ├── exploratory_data_analysis.ipynb
+│   └── vendor_performance_analysis.ipynb
+│
 ├── src/
+│   ├── ingestion_mysql_db.py
+│   └── get_vendor_summary.py
+│
 └── README.md
 ```
 
