@@ -70,15 +70,6 @@ Power BI Executive Dashboard
 
 The Power BI dashboard provides:
 
-- Total Revenue  
-- Total Procurement Cost  
-- Gross Profit  
-- Profit Margin %  
-- Unsold Capital  
-- Vendor Contribution %  
-- Top & Low Performing Vendors  
-- Sales vs Margin Analysis
-
 ![Vendor Brand Performance Dashboard](images/vendor-brand-performance-dashboard.png)
 
 ---
