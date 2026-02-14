@@ -117,6 +117,8 @@ The Power BI dashboard provides a financial performance snapshot including:
 - Low Performing Vendors  
 - Sales vs Margin Scatter Analysis  
 
+![Vendor Brand Performance Dashboard](images/vendor-brand-performance-dashboard.png)
+
 ---
 
 ## 📈 Financial KPIs Engineered
