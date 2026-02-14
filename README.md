@@ -138,8 +138,8 @@ vendor_brand_performance/
 │   └── vendor_brand_performance_dashboard.pbix
 │
 ├── data/
-│   ├── database_dump.sql
 │   ├── raw_data.csv
+│   ├── inventory.db
 │   └── processed_data.csv
 │
 ├── images/
