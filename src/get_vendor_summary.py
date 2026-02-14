@@ -3,8 +3,8 @@ from ingestion_sqlite_db import ingest_db, get_connection
 import logging
 import os
 
-db_path = r"D:\Practice\Data Analysis\PowerBI\Projects\VendorPerformance\inventory.db"
-log_dir = r"D:\Practice\Data Analysis\PowerBI\Projects\VendorPerformance\logs"
+db_path = r"data\inventory.db"
+log_dir = r"data\logs"
 log_file = os.path.join(log_dir, "get_vendor_summary.log")
 
 logger = logging.getLogger("vendor_summary")

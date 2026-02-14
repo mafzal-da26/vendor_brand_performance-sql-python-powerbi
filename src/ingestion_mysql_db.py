@@ -6,16 +6,16 @@ import time
 
 # Logging setup
 logging.basicConfig(
-    filename=r"D:\Practice\Data Analysis\PowerBI\Projects\VendorPerformance\logs\ingestion_db.log",
+    filename=r"D:logs\ingestion_db.log",
     level=logging.DEBUG,
     format="%(asctime)s - %(levelname)s - %(message)s",
     filemode="a"
 )
 
 # MySQL engine
-engine = create_engine("mysql+pymysql://root:000786@localhost/inventory_db")
+engine = create_engine("mysql+pymysql://root:<PASSWORD>@localhost/inventory_db")
 
-data_path = r"D:\Practice\Data Analysis\PowerBI\Projects\VendorPerformance\data"
+data_path = r"\data"
 
 
 def ingest_db(df, table_name, engine):
